@@ -10,7 +10,6 @@ const ThemeDropdown = ({ onChange }) => {
         const selectedTheme = e.target.value;
         setSelectedTheme(selectedTheme);
         setTheme(selectedTheme);
-        // console.log(selectedTheme);
     };
 
     useEffect(() => {
