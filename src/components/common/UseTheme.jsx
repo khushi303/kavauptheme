@@ -1,24 +1,29 @@
-// useTheme.js
-import { useState, useEffect } from 'react';
+"use client"
+import { useState, useEffect, useContext } from 'react';
+import { ThemeContext } from './ThemeProvider';
 
-export const useTheme = () => {
-    const [theme, setTheme] = useState('themepink');
+const ThemeDropdown = ({ onChange }) => {
+    const { theme, setTheme } = useContext(ThemeContext);
+    const [selectedTheme, setSelectedTheme] = useState(theme);
 
     useEffect(() => {
-        const storedTheme = localStorage.getItem('theme');
-        if (storedTheme) {
-            setTheme(storedTheme);
-        }
-    }, []);
+        setSelectedTheme(theme);
+    }, [theme]);
 
-    const toggleTheme = () => {
-        const themes = ['themepink', 'themegreen', 'theme-purple', 'themeblue'];
-        const currentIndex = themes.indexOf(theme);
-        const newIndex = (currentIndex + 1) % themes.length;
-        const newTheme = themes[newIndex];
-        setTheme(newTheme);
-        localStorage.setItem('theme', newTheme);
+    const handleChange = (e) => {
+        const selectedTheme = e.target.value;
+        setSelectedTheme(selectedTheme);
+        setTheme(selectedTheme);
     };
-
-    return { theme, toggleTheme };
+console.log(selectedTheme)
+    return (
+        <select value={selectedTheme} onChange={handleChange}>
+            <option value="pink">Pink</option>
+            <option value="green">Green</option>
+            <option value="purple">Purple</option>
+            <option value="blue">Blue</option>
+        </select>
+    );
 };
+
+export default ThemeDropdown;

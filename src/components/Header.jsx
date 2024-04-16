@@ -1,12 +1,23 @@
+// import { useTheme } from "next-themes";
+import Link from "next/link";
+import { Logo } from "./common/Icons";
+import ThemeDropdown from "./common/UseTheme";
+
 export default function Header() {
     return (
-        <div className='h-screen grid place-items-center bg-primary'>
-            <div>
-                <button className='py-2 px-8 bg-primary text-typography m-2'>Default</button>
-                <button className='py-2 px-8 bg-primary text-typography m-2'>theme 1</button>
-                <button className='py-2 px-8 bg-primary text-typography m-2'>theme 2</button>
-                <button className='py-2 px-8 bg-primary text-typography m-2'>theme 3</button>
+        <>
+            <div className="container xl:max-w-[1194px]">
+                <div className="flex items-center justify-between py-6">
+                    <Link href={'/'}>
+                        <Logo />
+                    </Link>
+                    <ul className="flex gap-10">
+                        <Link href={'/'} className="text-sm font-medium text-primary">Home</Link>
+                        <li>Apps</li>
+                    </ul>
+                  
+                </div>
             </div>
-        </div>
-    )
+        </>
+    );
 }
