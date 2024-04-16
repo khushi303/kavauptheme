@@ -8,34 +8,47 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'linearbtn': 'var(--linear-btn)',
       },
       container: {
-        padding: '24px',
+        padding: '20px',
         center: true,
       },
       fontSize: {
         'xsm': '12px',
         'sm': '18px',
-        'xmd': '20px',
-        'md': '24px',
-        'xlg': '32px',
+        'md': '20px',
+        'xmd': '24px',
+        'xsmd': '28px',
+        'xslg': '32px',
+        'xlg': '36px',
         'lg': '40px',
         'xl': '48px',
         'xxl': '56px'
       },
       colors: {
         'primary': 'var(--color-primary)',
+        'infinite-100': 'var(--color-infinite-100)',
+        'infinite-200': 'var(--color-infinite-200)',
+        'logocolortext': 'var(--logo-text)',
+        'navtextcolor': 'var(--nav-textcolor)',
+        'navtexthover': 'var(--nav-hovercolor)',
+        'bgheader': 'var(--header-bg)',
+        'headingcolor': 'var(--header-headingcolor)',
+        'btntext': 'var(--btn-textcolor)',
+        'bgcircle': 'var(--header-bgcircle)',
       },
       lineHeight: {
-        xsm: '21.56px',
+        xsm: '22px',
         sm: '32px',
         md: '34px',
-        lg: '36px',
+        lg: '125%',
+        sxl: '40px',
         xl: '57.6px',
         xxl: '70px'
+      },
+      borderRadius: {
+        'xxl': '30px',
       }
     },
   },

@@ -1,3 +1,12 @@
   :root {
-      --color-primary: green;
+      --color-infinite-100: #BBE40E;
+      --color-infinite-200: #31AF45;
+      --logo-text: #00490C;
+      --nav-textcolor: #03020D;
+      --nav-hovercolor: #31AF45;
+      --header-bg: #31AF4524;
+      --header-headingcolor: #31AF45;
+      --linear-btn: linear-gradient(161.69deg, #BBE40E 29.65%, #31AF45 94.09%);
+      --btn-textcolor: #03020D;
+        --header-bgcircle: #31AF45;
   }

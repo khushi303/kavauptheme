@@ -6,3 +6,11 @@
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
+
+.logocolor {
+    stop-color: var(--color-infinite-100);
+}
+
+.logocolor2 {
+    stop-color: var(--color-infinite-200);
+}

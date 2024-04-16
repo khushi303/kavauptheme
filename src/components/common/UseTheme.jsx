@@ -6,16 +6,19 @@ const ThemeDropdown = ({ onChange }) => {
     const { theme, setTheme } = useContext(ThemeContext);
     const [selectedTheme, setSelectedTheme] = useState(theme);
 
-    useEffect(() => {
-        setSelectedTheme(theme);
-    }, [theme]);
-
     const handleChange = (e) => {
         const selectedTheme = e.target.value;
         setSelectedTheme(selectedTheme);
         setTheme(selectedTheme);
+        // console.log(selectedTheme);
     };
-console.log(selectedTheme)
+
+    useEffect(() => {
+        setSelectedTheme(theme);
+    }, [theme]);
+
+
+    console.log(selectedTheme)
     return (
         <select value={selectedTheme} onChange={handleChange}>
             <option value="pink">Pink</option>
