@@ -19,11 +19,11 @@ export default function Header() {
     return (
         <>
             <div className="container xl:max-w-[1190px]">
-                <div className="flex items-center justify-between lg:py-6 py-2">
+                <div className="flex items-center justify-between lg:py-6 py-4">
                     <Link href={'/'}>
                         <Logo />
                     </Link>
-                    <ul className={`${isOpen ? "left-0" : "left-[-100%]"} flex max-lg:fixed max-lg:top-0 max-lg:h-full z-50 max-lg:w-full max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:bg-white max-lg:min-h-screen max-lg:flex-col gap-10 items-center justify-center`}>
+                    <ul className={`${isOpen ? "left-0" : "left-[-100%]"} flex max-lg:fixed max-lg:top-0 max-lg:h-full z-50 max-lg:w-full max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:bg-bgprocess max-lg:min-h-screen max-lg:flex-col gap-10 items-center justify-center`}>
                         <Link href={'/'} className="text-sm font-medium text-navtextcolor leading-xsm hover:text-navtexthover transition-all duration-300 ease-linear cursor-pointer">Home</Link>
                         <li className="flex items-center gap-2 leading-xsm cursor-pointer"><a href="#app" className="text-sm font-medium text-navtextcolor hover:text-navtexthover transition-all duration-300 ease-linear">Apps</a><span className="pb-1"><DropDownBtn /></span></li>
                         <Link href={'./Solutions'} className="flex items-center gap-2 leading-xsm text-sm font-medium text-navtextcolor hover:text-navtexthover transition-all duration-300 ease-linear cursor-pointer">Solutions <span className="pb-1"><DropDownBtn /></span></Link>
@@ -37,9 +37,9 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            <div className="container xl:max-w-[1800px] mt-5">
+            <div className="container xl:max-w-[1820px] mt-5">
                 <div className="bg-bgheader rounded-xxl flex items-center justify-end xl:px-16 xl:py-10 py-6 2xl:pt-0 px-6">
-                    <div className="flex flex-wrap flex-row items-center xl:ml-4 xl:max-w-[1389px]">
+                    <div className="flex flex-wrap flex-row items-center xl:max-w-[1459px]">
                         <div className="lg:w-6/12 w-full lg:pr-5">
                             <h2 className="2xl:text-xxl xl:text-xl lg:text-xlg md:text-xxl font-semibold leading-lg sm:text-xlg text-xsmd text-navtextcolor">Custom <span className="text-headingcolor">software development </span>from concept to completion
                                 accelerate growth through interactive app development</h2>
@@ -55,7 +55,7 @@ export default function Header() {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className="">
 
                     </div>
                 </div>

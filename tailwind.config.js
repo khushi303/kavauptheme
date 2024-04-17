@@ -37,15 +37,20 @@ module.exports = {
         'headingcolor': 'var(--header-headingcolor)',
         'btntext': 'var(--btn-textcolor)',
         'bgcircle': 'var(--header-bgcircle)',
+        'black-100': '#222831',
+        'black-800': '#080F1D',
+        'bgprocess': 'var(--bg-process)',
+        'learncolor': 'var(--learn-textcolor)'
       },
       lineHeight: {
         xsm: '22px',
-        sm: '32px',
-        md: '34px',
+        md: '120%',
         lg: '125%',
-        sxl: '40px',
-        xl: '57.6px',
-        xxl: '70px'
+        sxl: '135%',
+        xl: '142%',
+        xxl: '178%',
+        xsxxl: '200%',
+        xsxl: '222%',
       },
       borderRadius: {
         'xxl': '30px',

@@ -1,12 +1,14 @@
   :root {
-      --color-infinite-100: #D0006F;
-      --color-infinite-200: #0055B2;
-      --logo-text: #131619;
-      --nav-textcolor: #131619;
-      --nav-hovercolor: #0055B2;
-      --header-bg: #D0006F24;
-      --header-headingcolor: #D0006F;
-      --linear-btn: linear-gradient(97.1deg, #D0006F 4.95%, #0055B2 94.87%);
-      --btn-textcolor: #FFFFFF;
-      --header-bgcircle: #D0006F;
+    --color-infinite-100: #D0006F;
+    --color-infinite-200: #0055B2;
+    --logo-text: #131619;
+    --nav-textcolor: #131619;
+    --nav-hovercolor: #0055B2;
+    --header-bg: #D0006F24;
+    --header-headingcolor: #D0006F;
+    --linear-btn: linear-gradient(97.1deg, #D0006F 4.95%, #0055B2 94.87%);
+    --btn-textcolor: #FFFFFF;
+    --header-bgcircle: #D0006F;
+    --bg-process: #F8DBEB;
+    --learn-textcolor: #0055B2;
   }
