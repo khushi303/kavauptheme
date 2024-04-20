@@ -14,3 +14,11 @@
 .logocolor2 {
     stop-color: var(--color-infinite-200);
 }
+
+.ff_nunito {
+    font-family: "Nunito", sans-serif;
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
+}

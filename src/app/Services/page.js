@@ -6,8 +6,8 @@ import { ThemeContext } from "@/components/common/ThemeProvider";
 import TrustedSliders from "@/components/TrustedSlider";
 import Digital from "@/components/Digital";
 import NavBar from "@/components/NavBar";
-import Building from "@/components/Building";
 import Footer from "@/components/Footer";
+import ServiceTabs from '@/components/ServiceTabs';
 
 export default function Home() {
     const { theme } = useContext(ThemeContext);
@@ -39,7 +39,7 @@ export default function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
             </Head>
             <NavBar />
-            <Building />
+            <ServiceTabs />
             <TrustedSliders color="#080F1D" fillcolor="#86898F" />
             <Digital />
             <Footer />

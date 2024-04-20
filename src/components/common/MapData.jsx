@@ -8,3 +8,11 @@ export const TrustedSlides = [
     { imgsvg: <AirbnbSvg /> },
     { imgsvg: <UberSvg /> },
 ]
+
+export const AppData = [
+    { content: 'Mobile App Can Increase Sales.' },
+    { content: 'Compete with Larger Businesses.' },
+    { content: 'Simplify the Buyer Journey.' },
+    { content: 'Build Customer Loyalty' },
+    { content: 'Create a Direct Marketing Channel' },
+]

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'linearbtn': 'var(--linear-btn)',
+        'activelinear': 'var(--tab-border)',
       },
       container: {
         padding: '20px',
@@ -40,7 +41,16 @@ module.exports = {
         'black-100': '#222831',
         'black-800': '#080F1D',
         'bgprocess': 'var(--bg-process)',
-        'learncolor': 'var(--learn-textcolor)'
+        'learncolor': 'var(--learn-textcolor)',
+        'lightgray-400': '#46484B',
+        'darkblack': '#131619',
+        'bgemail': 'var(--bg-email)',
+        'bgbtncolor': 'var(--email-btncolor)',
+        'lightgray-500': '#58595B',
+        'lightgray-700': '#22283180',
+        'lightgray-800': '#03020D',
+        'lightgray-900': '#4A494E',
+        'tickcolor': 'var(--tick-circlecolor)'
       },
       lineHeight: {
         xsm: '22px',
@@ -48,11 +58,16 @@ module.exports = {
         lg: '125%',
         sxl: '135%',
         xl: '142%',
+        msxl: '150%',
+        mxl: '156%',
+        xlg: '160%',
         xxl: '178%',
         xsxxl: '200%',
         xsxl: '222%',
+        mxxl: '250%',
       },
       borderRadius: {
+        'md': '22.5px',
         'xxl': '30px',
       }
     },

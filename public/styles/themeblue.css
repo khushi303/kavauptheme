@@ -11,4 +11,8 @@
     --header-bgcircle: #334FF0;
     --bg-process: #E2E6FD;
     --learn-textcolor: #F44236;
+    --bg-email: #8000FF1A;
+    --email-btncolor: #8000FF;
+    --tab-border: linear-gradient(88.11deg, rgba(128, 0, 255, 0.6) 12.48%, #FBCB0C 93.56%, #FBCB0C 93.56%, #FFCC00 93.56%, rgba(251, 203, 12, 0.6) 93.57%);
+    --tick-circlecolor: #D0006F1A;
   }

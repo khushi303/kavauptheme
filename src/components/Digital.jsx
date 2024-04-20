@@ -7,9 +7,9 @@ export default function Digital() {
     return (
         <>
             <div className="container xl:max-w-[1210px]">
-                <div className="bg-bgprocess sm:py-14 lg:pb-0 py-12  xxl:px-3">
-                    <div className="pt-1 flex flex-wrap xl:px-24 px-5">
-                        <div className="lg:w-5/12 w-full flex items-center justify-center">
+                <div className="bg-bgprocess sm:py-14 lg:pb-0 py-12 xxl:px-3">
+                    <div className="pt-1 flex flex-wrap xxl:px-24 xl:px-20 px-5">
+                        <div className="lg:w-5/12 w-full flex items-center lg:justify-start justify-center">
                             <Image src={digitalimg} alt="digitalimg" className="max-w-[315px] w-full" />
                         </div>
                         <div className="lg:w-7/12 pt-4 w-full lg:mt-0 mt-8">
