@@ -50,7 +50,10 @@ module.exports = {
         'lightgray-700': '#22283180',
         'lightgray-800': '#03020D',
         'lightgray-900': '#4A494E',
-        'tickcolor': 'var(--tick-circlecolor)'
+        'tickcolor': 'var(--tick-circlecolor)',
+        'bgcircle': 'var(--bg-circlecolor)',
+        'bghelpcircle': 'var(--bg-circlecolor)',
+        'bglayer': 'var(--bg-layer)',
       },
       lineHeight: {
         xsm: '22px',

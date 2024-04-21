@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import { useState } from "react";
-import tabimg from '../../public/assets/images/png/tabimg.png'
+// import tabimg from '../../public/assets/images/png/tabimg.png'
 import businessimg from '../../public/assets/images/svg/businessimg.svg'
 import { LinearTick } from "./common/Icons";
 import { AppData } from "./common/MapData";
@@ -62,7 +62,7 @@ export default function Business() {
                         </div>
                         <div className={opentab === 3 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Organized Communications app for your online platform.</h4>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Communications app for your online platform.</h4>
                             <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {

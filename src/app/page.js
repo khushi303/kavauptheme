@@ -11,6 +11,8 @@ import Digital from "@/components/Digital";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Business from "@/components/Business";
+import Agency from "@/components/Agency";
+import Helpsec from "@/components/Helpsec";
 
 export default function Home() {
   const { theme } = useContext(ThemeContext);
@@ -45,7 +47,9 @@ export default function Home() {
       <Header />
       <TrustedSliders color="#080F1D" fillcolor="#86898F" />
       <About />
+      <Agency />
       <Process />
+      <Helpsec />
       <Digital />
       <Footer />
       <ThemeDropdown />

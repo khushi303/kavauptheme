@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="bg-white xl:pt-32 pt-16">
             <div className="container pt-0.5 xl:max-w-[1210px]">
                 <div className="flex justify-between flex-wrap mb-12">
-                    <div className="lg:w-10/12 w-full">
+                    <div className="lg:w-9/12 w-full">
                         <div className="flex flex-wrap">
                             <ul className="sm:w-4/12 w-6/12">
                                 <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Company</li>
