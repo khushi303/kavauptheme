@@ -14,7 +14,7 @@ import Agency from "@/components/Agency";
 import Helpsec from "@/components/Helpsec";
 import Image from "next/image";
 import backtotop from "../../public/assets/images/webp/topbtn.webp"
-import Preloader from "@/components/PreLoader";
+import Preloader from "@/components/Preloader";
 
 export default function Home() {
   // ===========color-theme==============//

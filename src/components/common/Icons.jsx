@@ -247,15 +247,15 @@ export const Setting = () => {
             <path d="M9.99141 6.78223C11.7579 6.77834 13.2093 8.22192 13.2171 9.99235C13.2249 11.755 11.7735 13.2102 10.007 13.2141C8.24044 13.218 6.78908 11.7706 6.78519 10.004C6.77741 8.23749 8.22098 6.78613 9.99141 6.78223ZM9.99141 12.4359C11.326 12.4398 12.4272 11.3464 12.435 10.0079C12.4428 8.67718 11.3494 7.57212 10.0109 7.56044C8.67235 7.54877 7.55951 8.65383 7.55562 9.99624C7.55951 11.3309 8.65678 12.432 9.99141 12.4359Z" fill="#3B2F6F" />
             <defs>
                 <linearGradient id="paint0_linear_13_13865" x1="7.64198" y1="-4.27998" x2="21.888" y2="3.01628" gradientUnits="userSpaceOnUse">
-                    <stop offset="0.14" stop-color="#8000FF" />
-                    <stop offset="1" stop-color="#FBCB0C" />
-                    <stop offset="1" stop-color="#FBCB0C" />
-                    <stop offset="1" stop-color="#FFCC00" />
-                    <stop offset="1.0001" stop-color="#FBCB0C" />
+                    <stop offset="0.14" stopColor="#8000FF" />
+                    <stop offset="1" stopColor="#FBCB0C" />
+                    <stop offset="1" stopColor="#FBCB0C" />
+                    <stop offset="1" stopColor="#FFCC00" />
+                    <stop offset="1.0001" stopColor="#FBCB0C" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_13_13865" x1="4.07906" y1="5.53081" x2="16.5916" y2="6.86592" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#F44236" />
-                    <stop offset="1" stop-color="#334FF0" />
+                    <stop stopColor="#F44236" />
+                    <stop offset="1" stopColor="#334FF0" />
                 </linearGradient>
             </defs>
         </svg>
@@ -308,12 +308,12 @@ export const Sharing = () => {
             <path d="M6.27311 15.9512C6.27311 16.2526 6.27311 16.2526 5.97166 16.2526C5.64941 16.2526 5.64941 16.2526 5.64941 15.9304C5.64941 15.6289 5.64941 15.6289 5.95087 15.6289C6.27311 15.6289 6.27311 15.6289 6.27311 15.9512Z" fill="white" />
             <defs>
                 <linearGradient id="paint0_linear_13_8704" x1="12.7193" y1="1.59337" x2="17.3218" y2="2.37642" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#D0006F" />
-                    <stop offset="1" stop-color="#0055B2" />
+                    <stop stopColor="#D0006F" />
+                    <stop offset="1" stopColor="#0055B2" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_13_8704" x1="2.11629" y1="14.691" x2="6.71875" y2="15.4741" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#D0006F" />
-                    <stop offset="1" stop-color="#0055B2" />
+                    <stop stopColor="#D0006F" />
+                    <stop offset="1" stopColor="#0055B2" />
                 </linearGradient>
             </defs>
         </svg>
@@ -327,12 +327,12 @@ export const WebSvg = () => {
             <path d="M23.4315 19.9926C23.6799 19.9926 23.929 19.9809 24.1765 19.9959C24.469 20.0134 24.6457 20.1993 24.654 20.4668C24.6624 20.7368 24.4982 20.9551 24.2107 20.9668C23.684 20.9893 23.1549 20.9884 22.6282 20.9676C22.3415 20.9559 22.1732 20.7384 22.1799 20.4701C22.1865 20.2043 22.3657 20.0234 22.654 19.9926C22.6749 19.9901 22.6957 19.9893 22.7157 19.9893C22.954 19.9893 23.1924 19.9893 23.4307 19.9893C23.4315 19.9901 23.4315 19.9909 23.4315 19.9926Z" fill="url(#paint1_linear_13_8839)" />
             <defs>
                 <linearGradient id="paint0_linear_13_8839" x1="1.24196" y1="2.62867" x2="28.8548" y2="6.72883" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#D0006F" />
-                    <stop offset="1" stop-color="#0055B2" />
+                    <stop stopColor="#D0006F" />
+                    <stop offset="1" stopColor="#0055B2" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_13_8839" x1="22.2902" y1="20.0766" x2="24.5734" y2="20.7842" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#D0006F" />
-                    <stop offset="1" stop-color="#0055B2" />
+                    <stop stopColor="#D0006F" />
+                    <stop offset="1" stopColor="#0055B2" />
                 </linearGradient>
             </defs>
         </svg>
