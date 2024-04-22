@@ -4,7 +4,7 @@ import Link from "next/link";
 import { DropDownBtn, HeaderArrow, Logo } from "./common/Icons";
 import CommonBtn from "./common/CommonBtn";
 import Image from "next/image";
-import phoneimg from '../../public/assets/images/png/headerphoneimg.png'
+import phoneimg from '../../public/assets/images/webp/headerphoneimg.webp'
 
 export default function Header() {
     const [isOpen, setOpen] = useState(false)

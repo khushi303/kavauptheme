@@ -28,7 +28,6 @@ module.exports = {
         'xxl': '56px'
       },
       colors: {
-        'primary': 'var(--color-primary)',
         'infinite-100': 'var(--color-infinite-100)',
         'infinite-200': 'var(--color-infinite-200)',
         'logocolortext': 'var(--logo-text)',
@@ -37,7 +36,7 @@ module.exports = {
         'bgheader': 'var(--header-bg)',
         'headingcolor': 'var(--header-headingcolor)',
         'btntext': 'var(--btn-textcolor)',
-        'bgcircle': 'var(--header-bgcircle)',
+        'bgcirclehead': 'var(--header-bgcircle)',
         'black-100': '#222831',
         'black-800': '#080F1D',
         'bgprocess': 'var(--bg-process)',
@@ -50,7 +49,6 @@ module.exports = {
         'lightgray-700': '#22283180',
         'lightgray-800': '#03020D',
         'lightgray-900': '#4A494E',
-        'tickcolor': 'var(--tick-circlecolor)',
         'bgcircle': 'var(--bg-circlecolor)',
         'bghelpcircle': 'var(--bg-circlecolor)',
         'bglayer': 'var(--bg-layer)',

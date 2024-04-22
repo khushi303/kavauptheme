@@ -1,5 +1,5 @@
 import Image from "next/image";
-import aboutimg from '../../public/assets/images/png/aboutimg.png';
+import aboutimg from '../../public/assets/images/webp/aboutimg.webp';
 import CommonBtn from "./common/CommonBtn";
 
 export default function About() {

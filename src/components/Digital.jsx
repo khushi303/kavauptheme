@@ -1,5 +1,5 @@
 import Image from "next/image";
-import digitalimg from '../../public/assets/images/png/digitalimg.png'
+import digitalimg from '../../public/assets/images/webp/digitalimg.webp'
 import Link from "next/link";
 import CommonBtn from "./common/CommonBtn";
 

@@ -20,10 +20,10 @@ const ThemeDropdown = ({ onChange }) => {
     console.log(selectedTheme)
     return (
         <select value={selectedTheme} onChange={handleChange}>
-            <option value="pink">Pink</option>
-            <option value="green">Green</option>
-            <option value="purple">Purple</option>
-            <option value="blue">Blue</option>
+            <option value="pink" className='text-infinite-100'>Pink</option>
+            <option value="green" className='text-infinite-100'>Green</option>
+            <option value="purple" className='text-infinite-100'>Purple</option>
+            <option value="blue" className='text-infinite-100'>Blue</option>
         </select>
     );
 };

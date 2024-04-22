@@ -1,6 +1,6 @@
 import Image from "next/image";
 import CommonBtn from "./common/CommonBtn";
-import buildingimg from '../../public/assets/images/png/buildingimg.png'
+import buildingimg from '../../public/assets/images/webp/buildingimg.webp'
 
 export default function Building() {
     return (

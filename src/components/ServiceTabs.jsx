@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import { useState } from "react";
-import tabimg from '../../public/assets/images/png/tabimg.png'
+import tabimg from '../../public/assets/images/webp/tabimg.webp'
 
 export default function ServiceTabs() {
     const [opentab, setOpentab] = useState(1);

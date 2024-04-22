@@ -11,22 +11,22 @@ export default function Footer() {
                             <ul className="sm:w-4/12 w-6/12">
                                 <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Company</li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Home
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/solutions'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Solutions
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/webapps'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Apps
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/Services'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Services
                                     </Link>
                                 </li>
@@ -34,17 +34,17 @@ export default function Footer() {
                             <ul className="sm:w-4/12 w-6/12">
                                 <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Product</li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Web apps
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mobile apps
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mac & desktop apps
                                     </Link>
                                 </li>
@@ -52,12 +52,12 @@ export default function Footer() {
                             <ul className="flex flex-col lg:gap-5 gap-4 sm:w-4/12 w-6/12 sm:mt-0 mt-8">
                                 <li className="text-xmd font-semibold leading-md text-darkblack">Contact</li>
                                 <li className="leading-mxxl">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400">
+                                    <Link href="mailto:info@kava.com" className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         info@kava.com
                                     </Link>
                                 </li>
                                 <li className="leading-xxl max-w-[217px]">
-                                    <Link href={''} className="text-sm font-normal text-lightgray-400 ">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         1234, Lorem ipsum dolor sit amet, consectetuer.
                                     </Link>
                                 </li>
@@ -70,7 +70,7 @@ export default function Footer() {
                             <div className="max-w-[234px] rounded-md bg-bgemail flex p-1 w-full h-[45px] lg:mt-5 mt-4 lg:mb-16 mb-8">
                                 <input type="text" placeholder="Your email address" className="bg-transparent text-xsm font-normal text-lightgray-500 rounded-md w-full outline-none border-none h-full pl-4 pr-1" />
                                 <div>
-                                    <div className="w-[37px] h-[37px] rounded-full bg-bgbtncolor flex items-center justify-center leading-xxl"><ShareBtn /></div>
+                                    <button className="w-[37px] h-[37px] rounded-full bg-bgbtncolor flex items-center justify-center leading-xxl"><ShareBtn /></button>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
