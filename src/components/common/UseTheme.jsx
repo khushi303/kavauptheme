@@ -17,7 +17,6 @@ const ThemeDropdown = ({ onChange }) => {
     }, [theme]);
 
 
-    console.log(selectedTheme)
     return (
         <select value={selectedTheme} onChange={handleChange}>
             <option value="pink" className='text-infinite-100'>Pink</option>
