@@ -10,6 +10,8 @@ import Footer from "@/components/Footer";
 import ServiceTabs from '@/components/ServiceTabs';
 import backtotop from "../../../public/assets/images/webp/topbtn.webp"
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
     // ===========color-theme==============//
@@ -44,6 +46,15 @@ export default function Home() {
         });
     }, []);
 
+
+    //============aos=======//
+    useEffect(() => {
+        AOS.init({
+            duration: 1700,
+            once: true,
+        })
+    }, [])
+
     return (
         <>
             <Head>
@@ -53,30 +64,19 @@ export default function Home() {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
             </Head>
-            <div class="pl">
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-                <div class="pl__eye"></div>
-            </div>
-            <NavBar />
-            <ServiceTabs />
-            <TrustedSliders color="#080F1D" fillcolor="#86898F" />
-            <Digital />
-            <Footer />
-            <div className="fixed top-2 right-2">
-                <ThemeDropdown />
-            </div>
-            <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
-                <Image src={backtotop} alt="backtotop" className='sm:max-w-[40px] max-w-[30px]' />
-            </div>
+          
+                <NavBar />
+                <ServiceTabs />
+                <div className='xl:py-10'>
+                    <TrustedSliders color="#080F1D" />
+                </div>
+                <Digital />
+                <Footer />
+                <div className="fixed top-2 right-2">
+                    <ThemeDropdown />
+                </div>
+                <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
+                    <Image src={backtotop} alt="backtotop" className='sm:max-w-[40px] max-w-[30px]' />
+                </div>
         </>)
 };

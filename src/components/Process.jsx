@@ -1,7 +1,7 @@
 export default function Process() {
     return (
         <div className="bg-bgprocess xl:py-32 py-16 ">
-            <div className="container xl:py-3">
+            <div data-aos="fade-down" className="container xl:py-3">
                 <h2 className="text-xl leading-md font-semibold text-center text-black-800 mb-7 xl:pb-0.5">Our process</h2>
                 <p className="text-xmd font-semibold leading-sxl text-navtextcolor text-center">Working With the Kava Up Team</p>
                 <p className="text-sm font-normal max-w-[656px] xl:mt-5 xl:mb-6 my-4 text-center opacity-70 mx-auto leading-xxl">Every new project begins with a free consultation to see if Kava Up is the best fit for you. Then, we'll design, develop, scale, and publish captivating, user-friendly apps if we vibe. We enjoy working closely with our clients to foster open, transparent communication.</p>

@@ -13,10 +13,10 @@ export default function Building() {
                     <div className="xl:w-5/12 lg:w-6/12 flex flex-col justify-center items-start xl:pr-0 lg:pr-7">
                         <h2 className="sm:text-lg text-xslg font-semibold text-black-800 leading-lg xl:mb-6 mb-4">Web Apps</h2>
                         <p className="text-md font-semibold text-learncolor leading-xlg xl:mb-4 mb-2">Custom Web App Development</p>
-                        <p className="text-sm font-medium leading-xxl text-lightgray-400 lg:max-w-[510px] xl:mb-6 mb-4">Do you want to enhance your website with a custom web application? We can help.</p>
+                        <p className="text-[19px] font-normal leading-xxl text-lightgray-400 lg:max-w-[510px] xl:mb-6 mb-4">Do you want to enhance your website with a custom web application? We can help.</p>
                         <p className="text-md font-semibold text-learncolor leading-xlg xl:mb-4 mb-2">Custom Web Apps Solve Unique Business Needs
                         </p>
-                        <p className="text-sm font-medium leading-xxl text-lightgray-400 lg:max-w-[510px] xl:mb-7 mb-4 xl:pb-0.5">We analyze your unique needs and build powerful, practical web applications that make your life easier. From customer portals to key integrations with third-party vendors and beyond, our custom web application development solves problems.
+                        <p className="text-[19px] font-normal leading-xxl text-lightgray-400 lg:max-w-[510px] xl:mb-7 mb-4 xl:pb-0.5">We analyze your unique needs and build powerful, practical web applications that make your life easier. From customer portals to key integrations with third-party vendors and beyond, our custom web application development solves problems.
                         </p>
                         <CommonBtn btnname='Read More' />
                     </div>

@@ -10,6 +10,8 @@ import Footer from "@/components/Footer";
 import Business from '@/components/Business';
 import backtotop from "../../../public/assets/images/webp/topbtn.webp"
 import Image from 'next/image';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
     const { theme } = useContext(ThemeContext);
@@ -44,6 +46,14 @@ export default function Home() {
         });
     }, []);
 
+    //============aos=======//
+    useEffect(() => {
+        AOS.init({
+            duration: 1700,
+            once: true,
+        })
+    }, [])
+
     return (
         <>
             <Head>
@@ -55,13 +65,15 @@ export default function Home() {
             </Head >
             <NavBar />
             <Business />
-            <TrustedSliders color="#080F1D" fillcolor="#86898F" />
+            <div className='xl:py-10'>
+                <TrustedSliders color="#080F1D" />
+            </div>
             <Digital />
             <Footer />
             <div className="fixed top-2 right-2">
                 <ThemeDropdown />
             </div>
-            <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-black sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
+            <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
                 <Image src={backtotop} alt="backtotop" className='sm:max-w-[40px] max-w-[30px]' />
             </div>
         </>)

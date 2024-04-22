@@ -16,7 +16,7 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={'/solutions'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                    <Link href={'/Solutions'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Solutions
                                     </Link>
                                 </li>
@@ -98,3 +98,5 @@ export default function Footer() {
         </div>
     )
 }
+
+// #22283180

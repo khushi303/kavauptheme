@@ -18,12 +18,14 @@ const ThemeDropdown = ({ onChange }) => {
 
 
     return (
-        <select value={selectedTheme} onChange={handleChange}>
-            <option value="pink" className='text-infinite-100'>Pink</option>
-            <option value="green" className='text-infinite-100'>Green</option>
-            <option value="purple" className='text-infinite-100'>Purple</option>
-            <option value="blue" className='text-infinite-100'>Blue</option>
-        </select>
+        <button className='p-3 gap-2 flex bg-bgprocess rounded-lg'>
+            <select value={selectedTheme} onChange={handleChange} className='text-infinite-200 text-sm font-normal bg-bgprocess'>
+                <option value="pink" className='text-infinite-100 text-pink-400 text-sm font-normal p-2 focus:outline-0'>Pink</option>
+                <option value="green" className='text-infinite-100 text-green-400 text-sm font-normal p-2 focus:outline-0'>Green</option>
+                <option value="purple" className='text-infinite-100 text-purple-400 text-sm font-normal p-2 focus:outline-0'>Purple</option>
+                <option value="blue" className='text-infinite-100 text-blue-400 text-sm font-normal p-2 focus:outline-0'>Blue</option>
+            </select>
+        </button>
     );
 };
 
