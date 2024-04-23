@@ -31,11 +31,6 @@
     display: none;
 }
 
-.bg_tick {
-    background-image: url('/public/assets/images/png/greentick.png');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-}
 
 body,
 html {
