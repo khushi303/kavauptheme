@@ -35,17 +35,17 @@ export default function Footer() {
                             <ul className="sm:w-4/12 w-6/12">
                                 <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Product</li>
                                 <li className="leading-mxxl">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                    <Link href={'/web'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Web apps
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                    <Link href={'/mobile'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mobile apps
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                    <Link href={'/desktop'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mac & desktop apps
                                     </Link>
                                 </li>
