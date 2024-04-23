@@ -45,7 +45,7 @@ export default function Footer() {
                                     </Link>
                                 </li>
                                 <li className="leading-mxxl">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400hover:text-navtexthover transition-all duration-300 ease-linear">
+                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mac & desktop apps
                                     </Link>
                                 </li>

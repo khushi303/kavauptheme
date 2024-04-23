@@ -223,8 +223,8 @@ export const LinearTick = () => {
                 <path d="M16.875 2.8125C12.7969 4.57031 9.00169 7.6275 6.1875 10.6875L2.25 7.875L0.5625 9.5625L6.1875 15.75C8.75362 11.2151 12.2344 6.67969 17.4375 3.9375L16.875 2.8125Z" fill="url(#paint0_linear_13_9779)" />
                 <defs>
                     <linearGradient id="paint0_linear_13_9779" x1="1.31585" y1="3.96018" x2="17.9415" y2="6.66285" gradientUnits="userSpaceOnUse">
-                        <stop className="logocolor" stopColor="#D0006F" />
-                        <stop className="logocolor2" offset="1" stopColor="#0055B2" />
+                        <stop className="logocolor" />
+                        <stop className="logocolor2" offset="1" />
                     </linearGradient>
                 </defs>
             </svg>

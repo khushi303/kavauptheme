@@ -8,11 +8,11 @@
 }
 
 .logocolor {
-    stop-color: var(--color-infinite-100);
+    stop-color: var(--color-infinite-100) !important;
 }
 
 .logocolor2 {
-    stop-color: var(--color-infinite-200);
+    stop-color: var(--color-infinite-200) !important;
 }
 
 .ff_nunito {
