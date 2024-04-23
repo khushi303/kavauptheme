@@ -1,20 +1,14 @@
 "use client"
-import Header from "@/components/Header";
 import { useState, useEffect, useContext } from 'react';
 import Head from 'next/head';
 import ThemeDropdown from "@/components/common/UseTheme";
 import { ThemeContext } from "@/components/common/ThemeProvider";
-import TrustedSliders from "@/components/TrustedSlider";
-import About from "@/components/About";
-import Process from "@/components/Process";
 import Digital from "@/components/Digital";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
-import Agency from "@/components/Agency";
-import Helpsec from "@/components/Helpsec";
-import backtotop from "../../../public/assets/images/webp/topbtn.webp"
-import Image from "next/image";
 import { UpArrow } from "@/components/common/Icons";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
     // ===========color-theme==============//
@@ -48,7 +42,13 @@ export default function Home() {
             }
         });
     }, []);
-
+    //============aos=======//
+    useEffect(() => {
+        AOS.init({
+            duration: 1700,
+            once: true,
+        })
+    }, [])
 
     return (
         <>
@@ -60,12 +60,6 @@ export default function Home() {
                 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
             </Head >
             <NavBar />
-            <Header />
-            <TrustedSliders color="#080F1D" fillcolor="#86898F" />
-            <About />
-            <Agency />
-            <Process />
-            <Helpsec />
             <Digital />
             <Footer />
             <div className="fixed top-2 right-2">
