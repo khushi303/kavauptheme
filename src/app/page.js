@@ -29,7 +29,6 @@ export default function Home() {
     if (linkElement) {
       linkElement.remove();
     }
-
     // Dynamically add the new theme CSS
     const newLinkElement = document.createElement('link');
     newLinkElement.setAttribute('rel', 'stylesheet');
