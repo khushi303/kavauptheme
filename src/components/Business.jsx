@@ -1,3 +1,4 @@
+// {/* ========================Business======================== */ }
 'use client'
 import Image from "next/image";
 import { useState } from "react";
@@ -9,6 +10,7 @@ export default function Business() {
     const [opentab, setOpentab] = useState(1);
     return (
         <>
+
             <div className="container xl:max-w-[1190px] xl:pt-24 pt-11">
                 <h2 data-aos="fade-right" className="2xl:text-xxl xl:text-xl lg:text-xlg md:text-xxl font-semibold leading-lg sm:text-xlg text-xsmd text-lightgray-800 text-center max-w-[832px] mx-auto xl:mt-1">What we have solutions on this platform</h2>
                 <div className="flex flex-wrap justify-between xl:mt-20 mt-10">

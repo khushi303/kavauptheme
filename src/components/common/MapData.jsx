@@ -1,5 +1,6 @@
 import { AirbnbSvg, FitbitSvg, GoogleSvg, NetflixSvg, Slideslackimg, UberSvg } from "./Icons";
 
+// ===========Slider-images==================//
 export const TrustedSlides = [
     { imgsvg: <Slideslackimg /> },
     { imgsvg: <NetflixSvg /> },
@@ -9,6 +10,7 @@ export const TrustedSlides = [
     { imgsvg: <UberSvg /> },
 ]
 
+// ==================Business-Section-Bullet-points=============//
 export const AppData = [
     { content: 'Mobile App Can Increase Sales.' },
     { content: 'Compete with Larger Businesses.' },

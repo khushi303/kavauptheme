@@ -1,3 +1,4 @@
+// =====================Building==================//
 import Image from "next/image";
 import CommonBtn from "./common/CommonBtn";
 import buildingimg from '../../public/assets/images/webp/buildingimg.webp'

@@ -1,3 +1,4 @@
+// ========================Footer=====================//
 import Link from "next/link";
 import { Facebook, FooterLogo, Instagram, ShareBtn, Tweeter, Youtube } from "./common/Icons";
 

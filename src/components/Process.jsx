@@ -1,3 +1,4 @@
+// =======================Process=======================//
 export default function Process() {
     return (
         <div className="bg-bgprocess xl:py-32 py-16 ">

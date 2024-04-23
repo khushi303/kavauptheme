@@ -1,6 +1,6 @@
+// =========================Header==========================//
 "use client"
 import { useState, useEffect } from "react";
-import Link from "next/link";
 import { HeaderArrow } from "./common/Icons";
 import CommonBtn from "./common/CommonBtn";
 import Image from "next/image";
