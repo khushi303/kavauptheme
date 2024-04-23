@@ -17,6 +17,7 @@ module.exports = {
       },
       fontSize: {
         'xsm': '12px',
+        'xxsm': '16px',
         'sm': '18px',
         'md': '20px',
         'xmd': '24px',
@@ -52,6 +53,8 @@ module.exports = {
         'bgcircle': 'var(--bg-circlecolor)',
         'bghelpcircle': 'var(--bg-circlecolor)',
         'bglayer': 'var(--bg-layer)',
+        'helpcolor': 'var(--help-stopcolor)',
+        'helpcolor-100': 'var(--help-stopcolor1)',
       },
       lineHeight: {
         xsm: '22px',

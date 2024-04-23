@@ -70,7 +70,7 @@ export default function Footer() {
                             <div className="max-w-[234px] rounded-md bg-bgemail flex p-1 w-full h-[45px] lg:mt-5 mt-4 lg:mb-16 mb-8">
                                 <input type="text" placeholder="Your email address" className="bg-transparent text-xsm font-normal text-lightgray-500 rounded-md w-full outline-none border-none h-full pl-4 pr-1" />
                                 <div>
-                                    <button className="w-[37px] h-[37px] rounded-full bg-bgbtncolor flex items-center justify-center leading-xxl"><ShareBtn /></button>
+                                    <button className="w-[35px] h-[35px] border-2 border-solid border-bgbtncolor hover:bg-white transition-all duration-300 ease-linear group rounded-full bg-bgbtncolor flex items-center justify-center leading-xxl"><ShareBtn /></button>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">

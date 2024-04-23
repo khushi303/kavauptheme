@@ -60,7 +60,7 @@ export default function Home() {
     }, 3000);
   }, []);
 
-  //============aos=======//
+  //============Aos==========//
   useEffect(() => {
     AOS.init({
       duration: 1700,
@@ -87,7 +87,7 @@ export default function Home() {
           </Head >
           <NavBar />
           <Header />
-          <TrustedSliders color="#080F1D" fillcolor="#86898F" />
+          <TrustedSliders color="#080F1D"/>
           <About />
           <Agency />
           <Process />
@@ -97,7 +97,7 @@ export default function Home() {
           <div className="fixed top-2 right-2">
             <ThemeDropdown />
           </div>
-          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer`} onClick={() => top()}>
+          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer  transition-all ease-linear duration-300`} onClick={() => top()}>
             <Image src={backtotop} alt="backtotop" className='sm:max-w-[40px] max-w-[30px]' />
           </div>
         </>

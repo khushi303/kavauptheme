@@ -19,6 +19,14 @@
     font-family: "Nunito", sans-serif;
 }
 
+.helpstopcolor {
+    stop-color: var(--help-stopcolor);
+}
+
+.helpstopcolor2 {
+    stop-color: var(--help-stopcolor1);
+}
+
 .tabs::-webkit-scrollbar {
     display: none;
 }

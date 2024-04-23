@@ -27,8 +27,8 @@ export default function Business() {
                     <div className="lg:w-7/12 flex lg:justify-end w-full lg:mt-0 mt-10">
                         <div className={opentab === 1 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a business app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a business app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -44,8 +44,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 2 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a E-commerce app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a E-commerce app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -61,8 +61,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 3 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Communications app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Communications app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -78,8 +78,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 4 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Chat app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Chat app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -95,8 +95,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 5 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Streaming Video / Audio app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Streaming Video / Audio app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -112,8 +112,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 6 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Social Media app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Social Media app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -129,8 +129,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 7 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Photo / Video editing app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Photo / Video editing app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -146,8 +146,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 8 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Maps app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Maps app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -163,8 +163,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 9 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Offline with data sync app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Offline with data sync app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (
@@ -180,8 +180,8 @@ export default function Business() {
                         </div>
                         <div className={opentab === 10 ? "block" : "hidden"}>
                             <Image src={businessimg} alt="businessimg" className="max-w-[605px] w-full xl:mb-0.5" />
-                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 max-w-[555px]">Create a Bluetooth app for your online platform.</h4>
-                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 max-w-[555px]">Take your business to a new level by creating an app with an online platform.</p>
+                            <h4 className="text-xslg font-semibold text-lightgray-800 leading-lg xl:mt-7 mt-5 lg:max-w-[555px]">Create a Bluetooth app for your online platform.</h4>
+                            <p className="text-sm font-normal leading-xxl text-lightgray-900 lg:mb-7 mb-5 lg:mt-5 mt-4 lg:max-w-[516px]">Take your business to a new level by creating an app with an online platform.</p>
                             <div className="xl:pt-0.5 flex flex-col gap-[15px]">
                                 {AppData.map((e, id) => {
                                     return (

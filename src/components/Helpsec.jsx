@@ -1,7 +1,7 @@
 import Image from "next/image";
 import helpimg1 from '../../public/assets/images/webp/helpimg1.webp'
 import helpimg2 from '../../public/assets/images/webp/helpimg2.webp'
-import { WebSvg } from "./common/Icons";
+import { Mobile, Projects, Prototyping, UiDesign, WebSvg } from "./common/Icons";
 import CommonBtn from "./common/CommonBtn";
 
 export default function Helpsec() {
@@ -27,25 +27,25 @@ export default function Helpsec() {
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
-                                    <WebSvg />
+                                    <Prototyping />
                                 </div>
                                 <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Prototyping</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
-                                    <WebSvg />
+                                    <UiDesign />
                                 </div>
                                 <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">UI/UX design</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
-                                    <WebSvg />
+                                    <Mobile />
                                 </div>
                                 <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Android / iOS mobile development</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
-                                    <WebSvg />
+                                    <Projects />
                                 </div>
                                 <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Complex web backend and frontend projects.</p>
                             </div>
