@@ -7,7 +7,7 @@ export default function Building() {
     return (
         <>
             <div className="container xl:pt-24 xl:mt-1 pt-12">
-                <h2 data-aos="fade-right" className="sm:text-xl text-xslg font-semibold leading-lg text-center xl:mb-20 mb-10">Building Reliable Solutions for <span className="lg:block">Businesses, Brands, & Startups</span></h2>
+                <h2 data-aos="fade-right" className="sm:text-xl text-lg font-semibold leading-lg text-center xl:mb-20 mb-10">Building Reliable Solutions for <span className="lg:block">Businesses, Brands, & Startups</span></h2>
             </div>
             <div className="container xl:max-w-[1534px] flex items-center xl:justify-end">
                 <div className="xl:max-w-[1320px] w-full flex flex-wrap">

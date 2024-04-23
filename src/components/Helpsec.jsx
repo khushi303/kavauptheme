@@ -17,7 +17,7 @@ export default function Helpsec() {
                         </div>
                     </div>
                     <div data-aos="fade-left" className="lg:w-5/12 w-full lg:mt-0 mt-8">
-                        <h2 className="text-xl leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">How we can help</h2>
+                        <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">How we can help</h2>
                         <p className="text-xmd font-semibold text-navtextcolor leading-sxl">We Build Scalable Solutions</p>
                         <div className="flex flex-col gap-3 mt-5">
                             <div className="flex items-center gap-4">

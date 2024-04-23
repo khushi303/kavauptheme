@@ -327,12 +327,12 @@ export const WebSvg = () => {
             <path d="M23.4315 19.9926C23.6799 19.9926 23.929 19.9809 24.1765 19.9959C24.469 20.0134 24.6457 20.1993 24.654 20.4668C24.6624 20.7368 24.4982 20.9551 24.2107 20.9668C23.684 20.9893 23.1549 20.9884 22.6282 20.9676C22.3415 20.9559 22.1732 20.7384 22.1799 20.4701C22.1865 20.2043 22.3657 20.0234 22.654 19.9926C22.6749 19.9901 22.6957 19.9893 22.7157 19.9893C22.954 19.9893 23.1924 19.9893 23.4307 19.9893C23.4315 19.9901 23.4315 19.9909 23.4315 19.9926Z" fill="url(#paint1_linear_13_8839)" />
             <defs>
                 <linearGradient id="paint0_linear_13_8839" x1="1.24196" y1="2.62867" x2="28.8548" y2="6.72883" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#D0006F" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#0055B2" />
+                    <stop className="helpstopcolor" stopColor="#D0006F" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#0055B2" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_13_8839" x1="22.2902" y1="20.0766" x2="24.5734" y2="20.7842" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#D0006F" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#0055B2" />
+                    <stop className="helpstopcolor" stopColor="#D0006F" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#0055B2" />
                 </linearGradient>
             </defs>
         </svg>
@@ -351,32 +351,32 @@ export const Prototyping = () => {
             <path d="M22.8102 28.1384C22.8048 28.4611 22.5243 28.7251 22.2032 28.7111C21.8923 28.6978 21.6399 28.4291 21.6446 28.1181C21.6501 27.7955 21.9298 27.5314 22.2516 27.5455C22.5633 27.5595 22.8157 27.8275 22.8102 28.1384Z" fill="url(#paint6_linear_9_3120)" />
             <defs>
                 <linearGradient id="paint0_linear_9_3120" x1="1.46462" y1="4.79834" x2="29.8902" y2="7.82923" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_9_3120" x1="9.41324" y1="3.23303" x2="11.152" y2="3.41847" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_9_3120" x1="26.3781" y1="23.1196" x2="28.117" y2="23.3052" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_9_3120" x1="2.37566" y1="3.73359" x2="3.53166" y2="3.85693" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_9_3120" x1="14.0749" y1="6.07342" x2="15.2314" y2="6.19688" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint5_linear_9_3120" x1="15.2448" y1="23.0355" x2="16.4009" y2="23.1587" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint6_linear_9_3120" x1="21.6804" y1="27.7143" x2="22.8366" y2="27.8375" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
             </defs>
         </svg>
@@ -394,28 +394,28 @@ export const UiDesign = () => {
             <path d="M9.84292 2.34707C9.57027 2.34707 9.29683 2.3541 9.02417 2.34551C8.73902 2.33613 8.56558 2.17441 8.55698 1.92832C8.54761 1.67285 8.73042 1.48066 9.02261 1.47598C9.58745 1.4666 10.1531 1.46582 10.7179 1.47676C10.9992 1.48223 11.1671 1.66191 11.1679 1.9127C11.1687 2.16816 11.0054 2.33457 10.7195 2.34473C10.4281 2.35488 10.1351 2.34707 9.84292 2.34707Z" fill="url(#paint5_linear_9_3132)" />
             <defs>
                 <linearGradient id="paint0_linear_9_3132" x1="1.32781" y1="4.39991" x2="23.9325" y2="6.22599" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_9_3132" x1="10.4078" y1="7.40222" x2="16.9112" y2="7.96974" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_9_3132" x1="3.13765" y1="7.45467" x2="8.8718" y2="7.90055" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_9_3132" x1="9.15233" y1="24.7173" x2="15.4137" y2="26.2379" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_9_3132" x1="15.9209" y1="2.04455" x2="16.7719" y2="2.13599" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint5_linear_9_3132" x1="8.63688" y1="1.59666" x2="11.0183" y2="2.34934" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
             </defs>
         </svg>
@@ -432,24 +432,24 @@ export const Mobile = () => {
             <path d="M14.5438 14.5224C14.1928 14.5224 13.9667 14.2105 14.0603 13.844C14.2942 12.9004 14.5282 11.9568 14.7699 11.0132C14.8557 10.6623 14.9415 10.3113 15.035 9.96822C15.1208 9.6329 15.3704 9.47693 15.6589 9.55491C15.9474 9.6329 16.08 9.89024 16.002 10.2256C15.6823 11.5045 15.3626 12.7912 15.0428 14.0701C14.9649 14.3431 14.8089 14.499 14.5438 14.5224Z" fill="url(#paint4_linear_9_3143)" />
             <defs>
                 <linearGradient id="paint0_linear_9_3143" x1="0.989944" y1="3.513" x2="30.4887" y2="7.44117" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_9_3143" x1="4.24626" y1="21.1608" x2="8.66636" y2="24.1995" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_9_3143" x1="17.0946" y1="10.6154" x2="19.5965" y2="10.7833" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_9_3143" x1="10.6082" y1="10.6093" x2="13.1091" y2="10.7771" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_9_3143" x1="14.1001" y1="10.2591" x2="16.0876" y2="10.3435" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
             </defs>
         </svg>
@@ -472,48 +472,48 @@ export const Projects = () => {
             <path d="M11.2255 2.34229C11.2201 2.59542 11.0021 2.80401 10.7497 2.79776C10.4966 2.79151 10.2888 2.57433 10.2951 2.32198C10.3013 2.06729 10.5162 1.86183 10.7708 1.86729C11.024 1.87276 11.231 2.08839 11.2255 2.34229Z" fill="url(#paint10_linear_9_3153)" />
             <defs>
                 <linearGradient id="paint0_linear_9_3153" x1="1.79807" y1="5.64804" x2="29.3169" y2="9.8399" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint1_linear_9_3153" x1="5.30833" y1="2.43922" x2="25.6133" y2="5.0861" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint2_linear_9_3153" x1="8.82058" y1="24.0321" x2="20.9027" y2="27.613" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint3_linear_9_3153" x1="13.2212" y1="7.93019" x2="16.9907" y2="8.09247" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint4_linear_9_3153" x1="8.0651" y1="9.23302" x2="11.8289" y2="9.5017" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint5_linear_9_3153" x1="18.3461" y1="9.22667" x2="22.1008" y2="9.49421" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint6_linear_9_3153" x1="13.667" y1="19.7759" x2="16.2389" y2="20.6026" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint7_linear_9_3153" x1="17.039" y1="2.00028" x2="21.2611" y2="5.14586" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint8_linear_9_3153" x1="6.58133" y1="2.00144" x2="7.50453" y2="2.09982" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint9_linear_9_3153" x1="8.45242" y1="2.00142" x2="9.37548" y2="2.09979" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
                 <linearGradient id="paint10_linear_9_3153" x1="10.3235" y1="2.00229" x2="11.2466" y2="2.10074" gradientUnits="userSpaceOnUse">
-                    <stop className="helpstopcolor" stop-color="#FBCB0C" />
-                    <stop className="helpstopcolor2" offset="1" stop-color="#8000FF" />
+                    <stop className="helpstopcolor" stopColor="#FBCB0C" />
+                    <stop className="helpstopcolor2" offset="1" stopColor="#8000FF" />
                 </linearGradient>
             </defs>
         </svg>

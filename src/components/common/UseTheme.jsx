@@ -19,7 +19,7 @@ const ThemeDropdown = ({ onChange }) => {
 
 
     return (
-        <button className='p-3 gap-2 flex bg-bgprocess rounded-lg'>
+        <button className='p-3 gap-2 flex bg-bgprocess rounded-lg relative z-[70]'>
             <select value={selectedTheme} onChange={handleChange} className='text-infinite-200 text-sm font-normal bg-bgprocess'>
                 <option value="pink" className='text-infinite-100 text-pink-400 text-sm font-normal p-2 focus:outline-0'>Pink</option>
                 <option value="green" className='text-infinite-100 text-green-400 text-sm font-normal p-2 focus:outline-0'>Green</option>

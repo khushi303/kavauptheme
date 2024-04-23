@@ -10,7 +10,7 @@ export default function Agency() {
             <div className="container xl:max-w-[1920px] flex 2xl:justify-end justify-center xl:mb-[140px] mb-16">
                 <div className="flex flex-wrap lg:flex-row flex-col-reverse lg:justify-between w-full max-w-[1524px]">
                     <div data-aos="fade-right" className="lg:w-5/12 w-full lg:mt-0 mt-8">
-                        <h2 className="text-xl leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
+                        <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
                         <div className="flex items-center gap-4 mb-5">
                             <div className="w-[35px] h-[35px] bg-bgcircle rounded-full flex items-center justify-center">
                                 <Setting />

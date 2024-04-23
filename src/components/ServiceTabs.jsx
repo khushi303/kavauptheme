@@ -9,7 +9,7 @@ export default function ServiceTabs() {
     return (
         <>
             <div className="container xl:max-w-[1190px] xl:pt-24 pt-16">
-                <h2 data-aos="fade-right" className="sm:text-xl text-xslg font-semibold leading-lg text-center xl:mb-20 mb-10 xl:mt-1">Services what we provide</h2>
+                <h2 data-aos="fade-right" className="sm:text-xl text-lg font-semibold leading-lg text-center xl:mb-20 mb-10 xl:mt-1">Services what we provide</h2>
                 <div className="flex flex-wrap justify-between">
                     <ul data-aos="zoom-in" className="lg:w-6/12 flex lg:flex-col flex-row items-center gap-5 w-full max-lg:overflow-x-scroll tabs">
                         <li className={`lg:py-[22px] py-4 lg:pl-[38px] lg:pr-0 px-5 max-w-[430px] lg:w-full w-[400px] transition-all duration-300 ease-linear relative ${opentab === 1 ? "bg-bgprocess after:absolute after:top-0 after:bottom-0 after:left-0 after:w-2 after:bg-activelinear after:h-full after:rounded-s-lg rounded-lg shadow-[0px_15px_30px_0px_#6DA4B60D] " : ''}`}><a href="" onClick={(e) => { e.preventDefault(); setOpentab(1) }} className='text-xmd whitespace-nowrap font-semibold text-lightgray-800 block w-full'>Saas</a></li>
