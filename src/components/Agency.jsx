@@ -11,7 +11,7 @@ export default function Agency() {
                 <div className="flex flex-wrap lg:flex-row flex-col-reverse lg:justify-between w-full max-w-[1524px]">
                     <div data-aos="fade-right" className="lg:w-5/12 w-full lg:mt-0 mt-8">
                         <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
-                        <div className="flex items-center gap-4 mb-5">
+                        <div className="flex items-center gap-4 lg:mb-5 mb-4">
                             <div className="w-[35px] h-[35px] bg-bgcircle rounded-full flex items-center justify-center">
                                 <Setting />
                             </div>
@@ -24,7 +24,7 @@ export default function Agency() {
                             </div>
                             <p className="text-md font-medium text-navtexthover leading-xlg">We're a 100% Remote Company</p>
                         </div>
-                        <p className="text-black-100 text-sm font-normal lg:max-w-[490px] opacity-70 leading-xxl xl:mb-12 mb-6 mt-5">Talent isn't restricted to borders. Our team is dispersed throughout the US.</p>
+                        <p className="text-black-100 text-sm font-normal lg:max-w-[490px] opacity-70 leading-xxl xl:mb-12 mb-6 lg:mt-5 mt-4">Talent isn't restricted to borders. Our team is dispersed throughout the US.</p>
                         <CommonBtn btnname='Contact Us' />
                     </div>
                     <div data-aos="fade-left" className="lg:w-7/12 w-full">

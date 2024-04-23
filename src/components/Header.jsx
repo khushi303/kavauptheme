@@ -28,7 +28,7 @@ export default function Header() {
                                 <a href="tel:+1234567890" className="text-navtextcolor group text-nowrap xl:pl-0.5 flex items-center gap-4 text-sm font-semibold leading-xsm">Try it for free <span><HeaderArrow /></span></a>
                             </div>
                         </div>
-                        <div data-aos="zoom-out-up" className="lg:w-6/12 relative w-full lg:mt-0 mt-8">
+                        <div data-aos="zoom-out-up" className="lg:w-6/12 relative w-full lg:mt-0 sm:mt-8 mt-6">
                             <Image src={phoneimg} priority='false' alt="phoneimg" className="w-full relative z-10" />
                             <div className="absolute left-0 right-0 flex items-center justify-center top-0 bottom-0">
                                 <div className="2xl:max-w-[661px] 2xl:max-h-[661px] xl:max-w-[530px] xl:max-h-[530px] lg:max-w-[450px] lg:max-h-[450px] max-w-[661px] max-h-[661px] w-full h-full bg-bgcirclehead rounded-full"></div>
