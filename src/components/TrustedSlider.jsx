@@ -47,7 +47,7 @@ export default function TrustedSliders(props) {
         <>
             <div className="xl:max-w-[1180px] container xl:py-24 xl:my-1 py-16">
                 <h4 className="text-xmd text-center font-semibold leading-xl xl:mb-12 mb-8" style={{ color: props.color }}>Our Trusted Partners</h4>
-                <Slider {...settings}>
+                <Slider {...settings} className="h-8">
                     {TrustedSlides.map((e, id) => {
                         return (
                             <div key={id}>
