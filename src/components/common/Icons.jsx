@@ -517,3 +517,11 @@ export const Projects = () => {
         </svg>
     )
 }
+
+export const UpArrow = () => {
+    return (
+        <svg className="sm:w-10 sm:h-7" width={30} height={30} data-name="1-Arrow Up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+            <path className="group-hover:fill-bgcirclehead transition-all ease-linear duration-300" d="m26.71 10.29-10-10a1 1 0 0 0-1.41 0l-10 10 1.41 1.41L15 3.41V32h2V3.41l8.29 8.29z" fill="white" />
+        </svg>
+    )
+}

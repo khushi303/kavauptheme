@@ -17,6 +17,7 @@ import backtotop from "../../public/assets/images/webp/topbtn.webp"
 import Preloader from "@/components/Preloader";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { UpArrow } from "@/components/common/Icons";
 
 export default function Home() {
   // ===========color-theme==============//
@@ -87,7 +88,7 @@ export default function Home() {
           </Head >
           <NavBar />
           <Header />
-          <TrustedSliders color="#080F1D"/>
+          <TrustedSliders color="#080F1D" />
           <About />
           <Agency />
           <Process />
@@ -97,8 +98,8 @@ export default function Home() {
           <div className="fixed top-2 right-2">
             <ThemeDropdown />
           </div>
-          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-headingcolor sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 right-7 z-40 cursor-pointer  transition-all ease-linear duration-300`} onClick={() => top()}>
-            <Image src={backtotop} alt="backtotop" className='sm:max-w-[40px] max-w-[30px]' />
+          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-bgcirclehead border-[2px] border-solid border-bgcirclehead sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 group right-7 z-40 cursor-pointer  transition-all ease-linear duration-300 hover:bg-white`} onClick={() => top()}>
+            <UpArrow />
           </div>
         </>
       )
