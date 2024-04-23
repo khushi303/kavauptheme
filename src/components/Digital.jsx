@@ -8,7 +8,7 @@ export default function Digital() {
         <>
             <div className="container xl:max-w-[1210px]">
                 <div className="bg-bgprocess sm:py-14 lg:pb-0 py-12 2xl:px-3">
-                    <div className="pt-1.5 flex flex-wrap 2xl:px-24 xl:px-20 px-5">
+                    <div  className="pt-1.5 flex flex-wrap 2xl:px-24 xl:px-20 px-5">
                         <div data-aos="fade-dowm" className="lg:w-5/12 w-full flex items-center lg:justify-start justify-center">
                             <Image src={digitalimg} alt="digitalimg" className="max-w-[315px] w-full" />
                         </div>

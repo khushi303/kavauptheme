@@ -6,11 +6,11 @@ export default function Building() {
     return (
         <>
             <div className="container xl:pt-24 xl:mt-1 pt-12">
-                <h2 className="sm:text-xl text-xslg font-semibold leading-lg text-center xl:mb-20 mb-10">Building Reliable Solutions for <span className="lg:block">Businesses, Brands, & Startups</span></h2>
+                <h2 data-aos="fade-right" className="sm:text-xl text-xslg font-semibold leading-lg text-center xl:mb-20 mb-10">Building Reliable Solutions for <span className="lg:block">Businesses, Brands, & Startups</span></h2>
             </div>
             <div className="container xl:max-w-[1534px] flex items-center xl:justify-end">
                 <div className="xl:max-w-[1320px] w-full flex flex-wrap">
-                    <div className="xl:w-5/12 lg:w-6/12 flex flex-col justify-center items-start xl:pr-0 lg:pr-7">
+                    <div data-aos="zoom-in" className="xl:w-5/12 lg:w-6/12 flex flex-col justify-center items-start xl:pr-0 lg:pr-7">
                         <h2 className="sm:text-lg text-xslg font-semibold text-black-800 leading-lg xl:mb-6 mb-4">Web Apps</h2>
                         <p className="text-md font-semibold text-learncolor leading-xlg xl:mb-4 mb-2">Custom Web App Development</p>
                         <p className="text-[19px] font-normal leading-xxl text-lightgray-400 lg:max-w-[510px] xl:mb-6 mb-4">Do you want to enhance your website with a custom web application? We can help.</p>
@@ -20,7 +20,7 @@ export default function Building() {
                         </p>
                         <CommonBtn btnname='Read More' />
                     </div>
-                    <div className="xl:w-7/12 lg:w-6/12 flex items-center lg:justify-end justify-center lg:mt-0 mt-8">
+                    <div data-aos="zoom-in" className="xl:w-7/12 lg:w-6/12 flex items-center lg:justify-end justify-center lg:mt-0 mt-8">
                         <Image src={buildingimg} alt="buildingimg" className="rounded-xxl max-w-[697px] h-full object-cover object-left w-full" />
                     </div>
                 </div>
