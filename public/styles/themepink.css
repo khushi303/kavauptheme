@@ -1,5 +1,5 @@
   /* ======================Pink-theme-css==================== */
-  
+
   :root {
     --color-infinite-100: #D0006F;
     --color-infinite-200: #0055B2;
@@ -21,6 +21,7 @@
     --bg-layer: #3728A326;
     --help-stopcolor: #D0006F;
     --help-stopcolor1: #0055B2;
+    --right-tick: url('../assets/images/png/pinktick.png');
   }
 
 

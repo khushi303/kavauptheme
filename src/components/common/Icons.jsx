@@ -216,19 +216,17 @@ export const FooterLogo = () => {
     )
 }
 
-export const LinearTick = () => {
+export const LinearTick = (props) => {
     return (
-        <div>
-            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16.875 2.8125C12.7969 4.57031 9.00169 7.6275 6.1875 10.6875L2.25 7.875L0.5625 9.5625L6.1875 15.75C8.75362 11.2151 12.2344 6.67969 17.4375 3.9375L16.875 2.8125Z" fill="url(#paint0_linear_13_9779)" />
-                <defs>
-                    <linearGradient id="paint0_linear_13_9779" x1="1.31585" y1="3.96018" x2="17.9415" y2="6.66285" gradientUnits="userSpaceOnUse">
-                        <stop className="logocolor" />
-                        <stop className="logocolor2" offset="1" />
-                    </linearGradient>
-                </defs>
-            </svg>
-        </div>
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.875 2.8125C12.7969 4.57031 9.00169 7.6275 6.1875 10.6875L2.25 7.875L0.5625 9.5625L6.1875 15.75C8.75362 11.2151 12.2344 6.67969 17.4375 3.9375L16.875 2.8125Z" fill={props.fillpath} />
+            <defs>
+                <linearGradient id={props.idpath} x1="1.31585" y1="3.96018" x2="17.9415" y2="6.66285" gradientUnits="userSpaceOnUse">
+                    <stop className="logocolor" />
+                    <stop className="logocolor2" offset="1" />
+                </linearGradient>
+            </defs>
+        </svg>
     )
 }
 

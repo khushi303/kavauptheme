@@ -10,6 +10,8 @@ module.exports = {
       backgroundImage: {
         'linearbtn': 'var(--linear-btn)',
         'activelinear': 'var(--tab-border)',
+        'righttick': 'var(--right-tick)',
+        'fullsize': '100% 100%'
       },
       container: {
         padding: '20px',

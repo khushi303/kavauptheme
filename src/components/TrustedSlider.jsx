@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick-theme.css";
 import { TrustedSlides } from "./common/MapData";
 
 export default function TrustedSliders(props) {
-    const { color } = props
     var settings = {
         dots: false,
         infinite: true,

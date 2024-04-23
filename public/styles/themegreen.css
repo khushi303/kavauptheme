@@ -1,25 +1,26 @@
  /* ==========================Green-theme-css========================= */
  :root {
-    --color-infinite-100: #BBE40E;
-    --color-infinite-200: #31AF45;
-    --logo-text: #00490C;
-    --nav-textcolor: #03020D;
-    --nav-hovercolor: #31AF45;
-    --header-bg: #31AF4524;
-    --header-headingcolor: #31AF45;
-    --linear-btn: linear-gradient(161.69deg, #BBE40E 29.65%, #31AF45 94.09%);
-    --btn-textcolor: #03020D;
-    --header-bgcircle: #31AF45;
-    --bg-process: #E2F4E5;
-    --learn-textcolor: #31AF45;
-    --bg-email: #31AF451A;
-    --email-btncolor: #31AF45;
-    --tab-border: linear-gradient(161.69deg, #BBE40E 29.65%, #31AF45 94.09%);
-    --bg-circlecolor: #31AF451A;
-    --bg-helpcircle: #31AF451A;
-    --bg-layer: #31AF4526;
-    --help-stopcolor: #31AF45;
-    --help-stopcolor1: #31AF45;
-  }
+   --color-infinite-100: #BBE40E;
+   --color-infinite-200: #31AF45;
+   --logo-text: #00490C;
+   --nav-textcolor: #03020D;
+   --nav-hovercolor: #31AF45;
+   --header-bg: #31AF4524;
+   --header-headingcolor: #31AF45;
+   --linear-btn: linear-gradient(161.69deg, #BBE40E 29.65%, #31AF45 94.09%);
+   --btn-textcolor: #03020D;
+   --header-bgcircle: #31AF45;
+   --bg-process: #E2F4E5;
+   --learn-textcolor: #31AF45;
+   --bg-email: #31AF451A;
+   --email-btncolor: #31AF45;
+   --tab-border: linear-gradient(161.69deg, #BBE40E 29.65%, #31AF45 94.09%);
+   --bg-circlecolor: #31AF451A;
+   --bg-helpcircle: #31AF451A;
+   --bg-layer: #31AF4526;
+   --help-stopcolor: #31AF45;
+   --help-stopcolor1: #31AF45;
+   --right-tick: url('../assets/images/png/greentick.png');
+ }
 
-  /* background: #31AF451A; */
+ /* background: #31AF451A; */
