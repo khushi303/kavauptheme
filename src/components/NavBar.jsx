@@ -30,12 +30,12 @@ export default function NavBar() {
                         <button className="flex items-center gap-2">
                             <Link href={'/webapps'} className={`${currentPath === "/webapps" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Apps
                             </Link>
-                            {/* <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span> */}
+                            <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span>
                         </button>
                         <button className="flex items-center gap-2">
                             <Link href={'/Solutions'} className={`${currentPath === "/Solutions" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Solutions
                             </Link>
-                            {/* <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span> */}
+                            <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span>
                         </button>
                         <button className="flex items-center gap-2">
                             <Link href={'/Services'} className={`${currentPath === "/Services" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Services
