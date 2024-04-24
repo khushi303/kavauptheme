@@ -68,7 +68,7 @@ export default function Home() {
                 <NavBar />
                 <Business />
                 <div className='xl:py-10'>
-                    <TrustedSliders color="#080F1D" />
+                    <TrustedSliders color="#03020D" />
                 </div>
                 <Digital />
                 <Footer />

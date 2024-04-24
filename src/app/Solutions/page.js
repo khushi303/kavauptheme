@@ -67,7 +67,7 @@ export default function Home() {
             <main className='overflow-hidden'>
                 <NavBar />
                 <Building />
-                <TrustedSliders color="#080F1D" fillcolor="#86898F" />
+                <TrustedSliders color="#03020D" />
                 <div className='xl:pt-9'>
                     <Digital />
                 </div>
