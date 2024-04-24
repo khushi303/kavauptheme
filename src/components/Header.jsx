@@ -7,17 +7,9 @@ import Image from "next/image";
 import phoneimg from '../../public/assets/images/webp/headerphoneimg.webp'
 
 export default function Header() {
-    const [isOpen, setOpen] = useState(false)
-    useEffect(() => {
-        if (isOpen === true) {
-            document.body.classList.add('overflow-hidden');
-        } else {
-            document.body.classList.remove('overflow-hidden');
-        }
-    });
     return (
         <>
-            <div className="container xl:max-w-[1820px] mt-5">
+            <div className="container xl:max-w-[1820px] mt-5 relative z-10">
                 <div className="bg-bgheader rounded-xxl flex items-center justify-end xl:px-16 xl:py-10 py-6 2xl:pt-0 px-6">
                     <div className="flex flex-wrap flex-row items-center xl:max-w-[1459px]">
                         <div data-aos="fade-right" className="lg:w-6/12 w-full lg:pr-5">

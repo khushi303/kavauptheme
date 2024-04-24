@@ -31,11 +31,14 @@
     display: none;
 }
 
-
-body,
-html {
-    overflow-x: hidden;
+.overflow_hidden {
+    overflow: hidden !important;
 }
+
+/* body,
+html main {
+    overflow-x: hidden;
+} */
 
 @keyframes mover {
     0% {

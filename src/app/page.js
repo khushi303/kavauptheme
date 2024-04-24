@@ -70,7 +70,6 @@ export default function Home() {
 
   return (
     <>
-
       {screenLoading ? (<>
         <div className='fixed min-h-screen top-0 left-0 right-0 bottom-0 flex items-center justify-center z-50'>
           <div className='sm:w-[167px] max-w-[140px] w-full'>
@@ -84,22 +83,25 @@ export default function Home() {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
           </Head >
-          <NavBar />
-          <Header />
-          <TrustedSliders color="#080F1D" />
-          <About />
-          <Agency />
-          <Process />
-          <Helpsec />
-          <Digital />
-          <Footer />
-          <div className="fixed top-2 right-2">
-            <ThemeDropdown />
-          </div>
-          <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-bgcirclehead border-[2px] border-solid border-bgcirclehead sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 group right-7 z-40 cursor-pointer  transition-all ease-linear duration-300 hover:bg-white`} onClick={() => top()}>
-            <UpArrow />
-          </div>
+          <main className="overflow-hidden">
+            <NavBar />
+            <Header />
+            <TrustedSliders color="#080F1D" />
+            <About />
+            <Agency />
+            <Process />
+            <Helpsec />
+            <Digital />
+            <Footer />
+            <div className="fixed top-2 right-2">
+              <ThemeDropdown />
+            </div>
+            <div className={`${backToTop ? '' : 'hidden'} rounded-[50%] bg-bgcirclehead border-[2px] border-solid border-bgcirclehead sm:w-[50px] sm:h-[50px] w-[40px] h-[40px] animate-[mover_2500ms_ease-in-out_infinite] flex items-center justify-center fixed bottom-7 group right-7 z-40 cursor-pointer  transition-all ease-linear duration-300 hover:bg-white`} onClick={() => top()}>
+              <UpArrow />
+            </div>
+          </main>
         </>
       )
       }

@@ -6,16 +6,17 @@ import { DropDownBtn, Logo } from "./common/Icons";
 import { usePathname } from 'next/navigation'
 
 export default function NavBar() {
-    const [isOpen, setOpen] = useState(false);
+    const [isOpen, setOpen] = useState(true);
     const currentPath = usePathname();
     const [_document, set_document] = useState(null)
     useEffect(() => {
-        if (isOpen === true) {
-            document.body.classList.add('max-lg:overflow-hidden');
+        set_document(document)
+        if (isOpen === false) {
+            document.body.classList.add('overflow_hidden');
         } else {
-            document.body.classList.remove('max-lg:overflow-hidden');
+            document.body.classList.remove('overflow_hidden');
         }
-    }, []);
+    });
     const [show, setShow] = useState(true)
     return (
         <>
@@ -24,17 +25,17 @@ export default function NavBar() {
                     <Link href={'/'}>
                         <Logo />
                     </Link>
-                    <div className={`${isOpen ? "max-lg:left-0" : "max-lg:left-[-100%]"} flex max-lg:fixed max-lg:top-0 max-lg:h-full z-50 max-lg:w-full max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:bg-bgprocess max-lg:min-h-screen max-lg:flex-col gap-10 items-center justify-center relative`}>
+                    <div className={`${isOpen ? "max-lg:left-[-100%]" : "max-lg:left-0"} flex max-lg:fixed max-lg:top-0 max-lg:h-full z-50 max-lg:transition-all max-lg:duration-300 max-lg:ease-linear max-lg:bg-bgprocess max-lg:min-h-screen max-lg:flex-col gap-10 items-center justify-center relative max-lg:bottom-0 max-lg:w-full`}>
                         <Link href={'/'} className={`${currentPath === "/" ? "text-navtexthover" : "text-navtextcolor"} text-sm font-medium leading-xsm hover:text-navtexthover transition-all duration-300 ease-linear cursor-pointer`}>Home</Link>
                         <button className="flex items-center gap-2">
                             <Link href={'/webapps'} className={`${currentPath === "/webapps" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Apps
                             </Link>
-                            <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span>
+                            {/* <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span> */}
                         </button>
                         <button className="flex items-center gap-2">
                             <Link href={'/Solutions'} className={`${currentPath === "/Solutions" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Solutions
                             </Link>
-                            <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span>
+                            {/* <span onClick={() => setShow(!show)} className="pb-1"><DropDownBtn /></span> */}
                         </button>
                         <button className="flex items-center gap-2">
                             <Link href={'/Services'} className={`${currentPath === "/Services" ? "text-navtexthover" : "text-navtextcolor"} text-sm relative hover:text-navtexthover font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer`}>Services
@@ -50,9 +51,9 @@ export default function NavBar() {
                         <Link href={''} className="hover:text-navtexthover text-navtextcolor text-sm font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer">Contact Us</Link>
                     </div>
                     <div onClick={() => setOpen(!isOpen)} className='lg:hidden w-[28px] h-[20px] relative z-50 flex justify-between flex-col cursor-pointer'>
-                        <span className={`${isOpen ? 'rotate-[50deg] translate-y-[14px]' : ""} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
-                        <span className={`${isOpen ? 'hidden' : ""} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
-                        <span className={`${isOpen ? 'rotate-[-50deg] translate-y-[-50%]' : ""} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
+                        <span className={`${isOpen ? '' : "rotate-[50deg] translate-y-[14px]"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
+                        <span className={`${isOpen ? '' : "hidden"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
+                        <span className={`${isOpen ? '' : "rotate-[-50deg] translate-y-[-50%]"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
                     </div>
                 </div>
             </div>
