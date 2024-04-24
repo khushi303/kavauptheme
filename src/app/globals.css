@@ -35,11 +35,6 @@
     overflow: hidden !important;
 }
 
-/* body,
-html main {
-    overflow-x: hidden;
-} */
-
 @keyframes mover {
     0% {
         transform: translateY(0px);
