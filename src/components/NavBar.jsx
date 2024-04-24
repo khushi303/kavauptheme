@@ -20,7 +20,7 @@ export default function NavBar() {
     const [show, setShow] = useState(true)
     return (
         <>
-            <div className="container xl:max-w-[1190px] xl:mt-0 mt-10">
+            <div className="container xl:max-w-[1190px] xl:pt-0 pt-10">
                 <div className="flex items-center justify-between lg:py-6 py-4">
                     <Link href={'/'}>
                         <Logo />
@@ -50,7 +50,7 @@ export default function NavBar() {
                         </div>
                         <Link href={''} className="hover:text-navtexthover text-navtextcolor text-sm font-medium leading-xsm transition-all duration-300 ease-linear cursor-pointer">Contact Us</Link>
                     </div>
-                    <div onClick={() => setOpen(!isOpen)} className='lg:hidden w-[28px] h-[20px] relative z-50 flex justify-between flex-col cursor-pointer'>
+                    <div onClick={() => setOpen(!isOpen)} className={`${isOpen ? "top-0" : "-top-8"} lg:hidden w-[28px] h-[20px] relative z-50 flex justify-between flex-col cursor-pointer transition-all duration-300 ease-linear`}>
                         <span className={`${isOpen ? '' : "rotate-[50deg] translate-y-[14px]"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
                         <span className={`${isOpen ? '' : "hidden"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
                         <span className={`${isOpen ? '' : "rotate-[-50deg] translate-y-[-50%]"} h-[3.4px] w-full duration-300 rounded-[3px] bg-navtexthover ease-linear transition-all`}></span>
