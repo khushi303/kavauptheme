@@ -57,6 +57,10 @@ module.exports = {
         'bglayer': 'var(--bg-layer)',
         'helpcolor': 'var(--help-stopcolor)',
         'helpcolor-100': 'var(--help-stopcolor1)',
+        'setcolor1': 'var(--set-fill1)',
+        'setcolor2': 'var(--set-fill2)',
+        'setcolor3': 'var(--set-fill3)',
+        'setcircle': 'var(--set-circle)'
       },
       lineHeight: {
         xsm: '22px',

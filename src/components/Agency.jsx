@@ -12,14 +12,14 @@ export default function Agency() {
                     <div data-aos="fade-right" className="lg:w-5/12 w-full lg:mt-0 mt-8">
                         <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
                         <div className="flex items-center gap-4 lg:mb-5 mb-4">
-                            <div className="w-[35px] h-[35px] bg-bgcircle rounded-full flex items-center justify-center">
+                            <div className="w-[35px] h-[35px] bg-setcircle rounded-full flex items-center justify-center">
                                 <Setting />
                             </div>
                             <p className="text-md font-semibold text-navtexthover leading-xlg">We're a Full-Service Agency</p>
                         </div>
                         <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">We craft digital experiences that bring strategic value. From simple apps to out-of-the-box, custom software, our team can help. Our solutions have an intelligent client interface that provides insight and allows for content manipulation. </p>
                         <div className="mt-6 flex items-center gap-4">
-                            <div className="w-[35px] h-[35px] rounded-full bg-bgcircle flex items-center justify-center">
+                            <div className="w-[35px] h-[35px] rounded-full bg-setcircle flex items-center justify-center">
                                 <Sharing />
                             </div>
                             <p className="text-md font-medium text-navtexthover leading-xlg">We're a 100% Remote Company</p>
