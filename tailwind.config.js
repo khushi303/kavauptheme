@@ -18,16 +18,9 @@ module.exports = {
         center: true,
       },
       fontSize: {
-        'xsm': '12px',
-        'xxsm': '16px',
-        'sm': '18px',
-        'md': '20px',
-        'xmd': '24px',
-        'xsmd': '28px',
-        'xslg': '32px',
-        'xlg': '36px',
-        'lg': '40px',
-        'xl': '48px',
+        'xd': '28px',
+        'sd': '32px',
+        'ls': '40px',
         'xxl': '56px'
       },
       colors: {

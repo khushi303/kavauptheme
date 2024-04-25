@@ -10,21 +10,21 @@ export default function Agency() {
             <div className="container xl:max-w-[1920px] flex 2xl:justify-end justify-center xl:mb-[140px] mb-16">
                 <div className="flex flex-wrap lg:flex-row flex-col-reverse lg:justify-between w-full max-w-[1524px]">
                     <div data-aos="fade-right" className="lg:w-5/12 w-full lg:mt-0 mt-8">
-                        <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
+                        <h2 className="sm:text-5xl text-ls !leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">What we do</h2>
                         <div className="flex items-center gap-4 lg:mb-5 mb-4">
                             <div className="w-[35px] h-[35px] bg-setcircle rounded-full flex items-center justify-center">
                                 <Setting />
                             </div>
-                            <p className="text-md font-semibold text-navtexthover leading-xlg">We're a Full-Service Agency</p>
+                            <p className="text-xl font-semibold text-navtexthover leading-xlg">We're a Full-Service Agency</p>
                         </div>
-                        <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">We craft digital experiences that bring strategic value. From simple apps to out-of-the-box, custom software, our team can help. Our solutions have an intelligent client interface that provides insight and allows for content manipulation. </p>
+                        <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 leading-xxl">We craft digital experiences that bring strategic value. From simple apps to out-of-the-box, custom software, our team can help. Our solutions have an intelligent client interface that provides insight and allows for content manipulation. </p>
                         <div className="mt-6 flex items-center gap-4">
                             <div className="w-[35px] h-[35px] rounded-full bg-setcircle flex items-center justify-center">
                                 <Sharing />
                             </div>
-                            <p className="text-md font-medium text-navtexthover leading-xlg">We're a 100% Remote Company</p>
+                            <p className="text-xl font-medium text-navtexthover !leading-xlg">We're a 100% Remote Company</p>
                         </div>
-                        <p className="text-black-100 text-sm font-normal lg:max-w-[490px] opacity-70 leading-xxl xl:mb-12 mb-6 lg:mt-5 mt-4">Talent isn't restricted to borders. Our team is dispersed throughout the US.</p>
+                        <p className="text-black-100 text-lg font-normal lg:max-w-[490px] opacity-70 !leading-xxl xl:mb-12 mb-6 lg:mt-5 mt-4">Talent isn't restricted to borders. Our team is dispersed throughout the US.</p>
                         <CommonBtn btnname='Contact Us' />
                     </div>
                     <div data-aos="fade-left" className="lg:w-7/12 w-full">

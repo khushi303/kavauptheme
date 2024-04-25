@@ -17,41 +17,41 @@ export default function Helpsec() {
                         </div>
                     </div>
                     <div data-aos="fade-left" className="lg:w-5/12 w-full lg:mt-0 mt-8">
-                        <h2 className="sm:text-xl text-lg leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">How we can help</h2>
-                        <p className="text-xmd font-semibold text-navtextcolor leading-sxl">We Build Scalable Solutions</p>
+                        <h2 className="sm:text-5xl text-ls !leading-md font-semibold xl:mb-7 mb-4 text-navtextcolor">How we can help</h2>
+                        <p className="text-2xl font-semibold text-navtextcolor !leading-sxl">We Build Scalable Solutions</p>
                         <div className="flex flex-col gap-3 mt-5">
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
                                     <WebSvg />
                                 </div>
-                                <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Web & mobile application services</p>
+                                <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 leading-xxl">Web & mobile application services</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
                                     <Prototyping />
                                 </div>
-                                <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Prototyping</p>
+                                <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 !leading-xxl">Prototyping</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
                                     <UiDesign />
                                 </div>
-                                <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">UI/UX design</p>
+                                <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 !leading-xxl">UI/UX design</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
                                     <Mobile />
                                 </div>
-                                <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Android / iOS mobile development</p>
+                                <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 !leading-xxl">Android / iOS mobile development</p>
                             </div>
                             <div className="flex items-center gap-4">
                                 <div className="flex items-center justify-center w-[50px] h-[50px] bg-bghelpcircle rounded-full">
                                     <Projects />
                                 </div>
-                                <p className="text-black-100 text-sm font-normal lg:max-w-[581px] opacity-70 leading-xxl">Complex web backend and frontend projects.</p>
+                                <p className="text-black-100 text-lg font-normal lg:max-w-[581px] opacity-70 !leading-xxl">Complex web backend and frontend projects.</p>
                             </div>
                         </div>
-                        <p className="text-md font-semibold text-navtexthover mt-7 leading-xlg mb-5">Need more help? We also provide database management, cloud services, and CI/CD</p>
+                        <p className="text-xl font-semibold text-navtexthover mt-7 !leading-xlg mb-5">Need more help? We also provide database management, cloud services, and CI/CD</p>
                         <CommonBtn btnname='Contact Now' />
                     </div>
                 </div>

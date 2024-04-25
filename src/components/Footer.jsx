@@ -10,55 +10,55 @@ export default function Footer() {
                     <div className="lg:w-9/12 w-full">
                         <div className="flex flex-wrap">
                             <ul className="sm:w-4/12 w-6/12">
-                                <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Company</li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="text-2xl font-semibold !leading-md text-darkblack lg:mb-5 mb-4">Company</li>
+                                <li className="!leading-mxxl">
+                                    <Link href={'/'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Home
                                     </Link>
                                 </li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/Solutions'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-mxxl">
+                                    <Link href={'/Solutions'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Solutions
                                     </Link>
                                 </li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/webapps'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-mxxl">
+                                    <Link href={'/webapps'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Apps
                                     </Link>
                                 </li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/Services'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-mxxl">
+                                    <Link href={'/Services'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Services
                                     </Link>
                                 </li>
                             </ul>
                             <ul className="sm:w-4/12 w-6/12">
-                                <li className="text-xmd font-semibold leading-md text-darkblack lg:mb-5 mb-4">Product</li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/web'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="text-2xl font-semibold !leading-md text-darkblack lg:mb-5 mb-4">Product</li>
+                                <li className="!leading-mxxl">
+                                    <Link href={'/web'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Web apps
                                     </Link>
                                 </li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/mobile'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-mxxl">
+                                    <Link href={'/mobile'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mobile apps
                                     </Link>
                                 </li>
-                                <li className="leading-mxxl">
-                                    <Link href={'/desktop'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-mxxl">
+                                    <Link href={'/desktop'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         Mac & desktop apps
                                     </Link>
                                 </li>
                             </ul>
                             <ul className="flex flex-col lg:gap-5 gap-4 sm:w-4/12 w-6/12 sm:mt-0 mt-8">
-                                <li className="text-xmd font-semibold leading-md text-darkblack">Contact</li>
-                                <li className="leading-mxxl">
-                                    <Link href="mailto:info@kava.com" className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="text-2xl font-semibold !leading-md text-darkblack">Contact</li>
+                                <li className="!leading-mxxl">
+                                    <Link href="mailto:info@kava.com" className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         info@kava.com
                                     </Link>
                                 </li>
-                                <li className="leading-xxl max-w-[217px]">
-                                    <Link href={'/'} className="text-sm font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
+                                <li className="!leading-xxl max-w-[217px]">
+                                    <Link href={'/'} className="text-lg font-normal text-lightgray-400 hover:text-navtexthover transition-all duration-300 ease-linear">
                                         1234, Lorem ipsum dolor sit amet, consectetuer.
                                     </Link>
                                 </li>
@@ -67,11 +67,11 @@ export default function Footer() {
                     </div>
                     <div className="lg:w-2/12 w-full lg:mt-0 mt-8 flex  lg:justify-end">
                         <div>
-                            <p className="text-xmd font-semibold leading-md text-darkblack">Get in touch</p>
+                            <p className="text-2xl font-semibold !leading-md text-darkblack">Get in touch</p>
                             <div className="max-w-[234px] rounded-md bg-bgemail flex p-1 w-full h-[45px] lg:mt-5 mt-4 lg:mb-16 mb-8">
-                                <input type="text" placeholder="Your email address" className="bg-transparent text-xsm font-normal text-lightgray-500 rounded-md w-full outline-none border-none h-full pl-4 pr-1" />
+                                <input type="text" placeholder="Your email address" className="bg-transparent text-xs font-normal text-lightgray-500 rounded-md w-full outline-none border-none h-full pl-4 pr-1" />
                                 <div>
-                                    <button className="w-[35px] h-[35px] border-2 border-solid border-bgbtncolor hover:bg-white transition-all duration-300 ease-linear group rounded-full bg-bgbtncolor flex items-center justify-center leading-xxl"><ShareBtn /></button>
+                                    <button className="w-[35px] h-[35px] border-2 border-solid border-bgbtncolor hover:bg-white transition-all duration-300 ease-linear group rounded-full bg-bgbtncolor flex items-center justify-center !leading-xxl"><ShareBtn /></button>
                                 </div>
                             </div>
                             <div className="flex items-center gap-4">
@@ -93,7 +93,7 @@ export default function Footer() {
                 </div>
                 <div className="border-t-[0.5px] border-solid border-lightgray-700 pt-3 pb-6 flex items-center sm:justify-between justify-center sm:flex-row flex-col">
                     <Link href={'/'}><FooterLogo /></Link>
-                    <p className="text-sm font-normal leading-mxl text-lightgray-500 text-nowrap sm:mt-0 mt-4">Copyright©{new Date().getFullYear()} kava up, LLC</p>
+                    <p className="text-lg font-normal !leading-mxl text-lightgray-500 text-nowrap sm:mt-0 mt-4">Copyright©{new Date().getFullYear()} kava up, LLC</p>
                 </div>
             </div>
         </div>
