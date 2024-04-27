@@ -40,8 +40,7 @@ export default function Business() {
                                                 return (
                                                     <div key={ind} className="flex items-center gap-3.5">
                                                         <div className="w-[35px] h-[35px] bg-bgcircle flex items-center justify-center rounded-full">
-                                                            {/* <div className="bg_tick w-[16.88px] h-[12.94px]"></div> */}
-                                                            <LinearTick fillpath={data.fillpath} idpath={data.idpath} />
+                                                             <LinearTick fillpath={data.fillpath} idpath={data.idpath} />
                                                         </div>
                                                         <p className="text-lg font-normal !leading-xxl text-lightgray-900">{e.content}</p>
                                                     </div>
